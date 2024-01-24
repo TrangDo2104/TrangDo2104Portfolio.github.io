@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    
+    <!-- FONTAWESOM -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Trang Do</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class="fas fa-home nav-link-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="fas fa-user nav-link-icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="fas fa-file-alt nav-link-icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">
+                            <i class="fas fa-image nav-link-icon"></i> Project
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fas fa-envelope nav-link-icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav-close" id="nav-close"></i>
+            </div>
+            <div class="nav-btns">
+
+                <!-- Theme change button -->
+                <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-qrcode"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HOME -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="https://www.linkedin.com/in/trangdo2104/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://huggingface.co/Changchoichang2104" target="_blank" class="home-social-icon">
+                            <i class="fas fa-robot"></i> <!-- Using a robot icon as a placeholder -->
+                        </a>
+                        </a>
+                        <a href="https://github.com/TrangDo2104" target="_blank" class="home-social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="home-img">
+                       <img src="img/home_picture.jpg" alt="This is my home picture">
+                    </div>
+                    <div class="home-data">
+                        <h1 class="home-data-title">Hi, I'm Trang</h1>
+                        <h3 class="home-data-subtitle">Machine Learning|Deep Learning|Data Science</h3>
+                        <p class="home-data-description">I'm transitioning from Chemical and Biomolecular Engineering to a tech career, with a passion for Machine Learning and Deep Learning. I bring analytical thinking and AI expertise to drive innovation in forward-thinking tech companies.</p>
+                        <a href="#contact" class="button button-flex">
+                            Contact <i class="fab fa-telegram-plane button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button-flex">
+                        <span class="home-scroll-button-name">Scroll down</span>
+                        <i class="fas fa-arrow-down home-scroll-button-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <span class="section-subtitle">My introduction</span>
+
+            <div class="about-container container grid">
+                <div class="about-container-img">
+                    <img src="img/About_picture.jpg" alt="About" class="about-container-imgAlt">
+                </div>
+
+                <div class="about-container-data">
+                    <p class="about-container-data-description">I'm on an exciting journey of transformation from a background in Chemical and Biomolecular Engineering to a thriving career in the dynamic world of technology, with a specific passion for Machine Learning and Deep Learning. I bring a unique perspective from my engineering background, combining analytical thinking and problem-solving prowess with the power of machine learning algorithms.</p>
+
+                    <div class="about-buttons">
+                        <a download="" href="pdf/TrangDoResume.pdf" class="button button-flex">
+                            Download CV <i class="fas fa-download button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <span class="section-subtitle">My technical level</span>
+
+            <div class="skills-container container grid">
+                <!-- Machine Learning | Deep Learning Skills -->
+                <div class="skills-container-content skills-open">
+                    <div class="skills-container-header">
+                        <i class="fas fa-code skills-icon"></i>
+                        <div>
+                            <h1 class="skills-title">Machine Learning | Deep Learning</h1>
+                        </div>
+                        <i class="fas fa-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-list grid">
+                        <!-- TensorFlow Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">TensorFlow</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- PyTorch Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">PyTorch</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- FastAI Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">FastAI</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- Keras Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">Keras</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- Scikit-Learn Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">Scikit-Learn</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- OpenCV Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">OpenCV</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- Matplotlib Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">Matplotlib</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- Seaborn Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">Seaborn</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- Pandas Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">Pandas</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Skills -->
+                <div class="skills-container-content skills-close">
+                    <div class="skills-container-header">
+                        <i class="fas fa-tools skills-icon"></i>
+                        <div>
+                            <h1 class="skills-title">Other Skills</h1>
+                        </div>
+                        <i class="fas fa-angle-down skills-arrow"></i>
+                    </div>
+                    <div class="skills-list grid">
+                        <!-- Git Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">Git</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- GitHub Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">GitHub</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- PowerBI Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">PowerBI</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <!-- Power Automate Skill -->
+                        <div class="skills-data">
+                            <div class="skills-titles">
+                                <h3 class="skills-name">Power Automate</h3>
+                                <span class="skills-number">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <span class="skills-percentage" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Programming Languages Skills -->
+                <div class="skills-container-content skills-close">
+                    <div class="skills-container-header">
+                        <i class="fas fa-swatchbook skills-icon"></i>
+                        <div>
+                            <h1 class="skills-title">Programming Languages</h1>
+                        </div>
+                        <i class="fas fa-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-list grid">
+                        <div class="skills-list grid">
+                            <!-- Python Skill -->
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Python</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+            
+                            <!-- MATLAB Skill -->
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">MATLAB</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+            
+                            <!-- HTML Skill -->
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">HTML</h3>
+                                    <span class="skills-number">50%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 50%;"></span>
+                                </div>
+                            </div>
+            
+                            <!-- Java Skill -->
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Java</h3>
+                                    <span class="skills-number">30%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 30%;"></span>
+                                </div>
+                            </div>
+            
+                            <!-- SQL Skill -->
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">SQL</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUALIFICATION -->
+        <section class="qualification section">
+            <h2 class="section-title">Qualification</h2>
+            <span class="section-subtitle">My personal journey</span>
+
+            <div class="qualification-container container">
+                <div class="qualification-tabs">
+                    <div class="qualification-tabs-button button-flex qualification-active" data-target="#education">
+                        <i class="fas fa-graduation-cap qualification-icon"></i>
+                        Education
+                    </div>
+                    <div class="qualification-tabs-button button-flex" data-target="#work">
+                        <i class="fas fa-briefcase qualification-icon"></i>
+                        Work
+                    </div>
+                </div>
+                <div class="qualification-sections">
+                    <!-- QUALIFICATION CONTENT 1 - EDUCATION -->
+                    <div class="qualification-content qualification-active" data-content id="education">
+                        <!-- QUALIFICATION 1 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">B.S. Chemical and Biomolecular Engineering with Minor in Computing and Data Analysis</h3>
+                                <span class="qualification-subtitle">Nanyang Technological University Singapore</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Aug. 2022 - May. 2026
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- QUALIFICATION CONTENT 2 - WORK -->
+                    <div class="qualification-content" data-content id="work">
+                        <!-- QUALIFICATION 1 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">URECA Project - Analyzing Classroom Audio-Visual Data using AI/ML</h3>
+                                <span class="qualification-subtitle">Undergraduate Research, Nanyang Technological University - National Institute of Education Singapore</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Aug. 2023 - June. 2024
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Project</h2>
+            <span class="section-subtitle">Most recent work</span>
+
+            <div class="portfolio-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- PORTFOLIO 1 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio1.jpeg" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Waltz with Bashir</h3>
+                            <p class="portfolio-description">Applied LoRA for fine-tuning the model, successfully adapted the model to replicate the distinctive artistic style
+                                of ”Waltz with Bashir”.</p>
+                            <a href="https://huggingface.co/Changchoichang2104/StableDiffusionXL-Waltz-with-Bashir-style" class="button button-flex button-small portfolio-button">
+                                HuggingFace <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 2 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio2.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Brand Design</h3>
+                            <p class="portfolio-description">Website adaptable to all devices, with ui components and
+                                animated interactions.</p>
+                            <a href="https://github.com/TrangDo2104/Face-recognition" class="button button-flex button-small portfolio-button">
+                                Github <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrow -->
+                <div class="swiper-button-next">
+                    <i class="fas fa-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- PROJECT IN MIND -->
+        <section class="project section">
+            <div class="project-bg">
+                <div class="project-container container grid">
+                    <div class="project-data">
+                        <h2 class="project-bg-title">You have a new project</h2>
+                        <p class="project-bg-description">Contact me now and discuss new project.</p>
+                        <a href="#contact" class="button button-flex button-white">
+                            Contact
+                            <i class="fab fa-telegram-plane project-icon button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT ME -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <span class="section-subtitle">Get in touch</span>
+
+            <div class="contact-container container grid">
+                <div class="contact-items">
+                    <div class="contact-information">
+                        <i class="fas fa-phone contact-icon"></i>
+
+                        <div>
+                            <h3 class="contact-title">Call Me</h3>
+                            <span class="contact-subtitle">+65 8143 7233</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <i class="far fa-envelope contact-icon"></i>
+
+                        <div>
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-subtitle">trangdo211104@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+
+                        <div>
+                            <h3 class="contact-title">Location</h3>
+                            <span class="contact-subtitle">Singapore</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container grid">
+                <div class="footer-texts">
+                    <h1 class="footer-title">Trang Do</h1>
+                </div>
+
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/trangdo2104/" target="_blank">
+                        <i class="fab fa-linkedin footer-social"></i>
+                    </a>
+                    <a href="https://github.com/TrangDo2104" target="_blank">
+                        <i class="fa-brands fa-github footer-social"></i>
+                    </a>
+                    </a>
+                    <a href="https://www.instagram.com/changchoichanggg" target="_blank">
+                        <i class="fab fa-instagram footer-social"></i>
+                    </a>
+                    <a href="https://www.instagram.com/iamsu.nset/" target="_blank">
+                        <i class="fab fa-instagram footer-social"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copy">&#169; Trang Do. All right reserved</p>
+        </div>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/027d3564f6.js" crossorigin="anonymous"></script>
+
+    <!-- SWIPER JS -->
+    <script src="js/swiper-bundle.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+
+    <!-- Send Email JS -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+            function sendEmail(){
+                Email.send({
+                    SecureToken : "4e5bbb6a-79dc-4704-a14c-d239f611f543",
+                    Host : "smtp.elasticemail.com",
+                    Username : "khaikimhsgs@gmail.com",
+                    Password : "F2F69A7DB1B1FCD9F9F4568B7170954167D5",
+                    To : "khaikimhsgs@gmail.com",
+                    From : document.getElementById("email").value,
+                    Subject : document.getElementById("subject").value,
+                    Body : "Name: " + document.getElementById("name").value
+                        + "<br> Email: " + document.getElementById("email").value 
+                        + "<br> Subject: " + document.getElementById("subject").value 
+                        + "<br> Message: " + document.getElementById("message").value 
+                }).then(
+                message => alert("Message Sent Successfully")
+                );
+            }
+    </script>
+</body>
+
+</html>
